@@ -1,0 +1,17 @@
+.jumbotron{
+    height: 100%;
+    margin: 0px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 0px;
+}
+@media screen and (min-width: 1024px) {
+	#myCanvas{font: 350px arial, sans-serif; color: #fff; text-align: center;}
+}
+@media only screen and (min-width: 768px) {
+    #myCanvas{font: 250px arial, sans-serif; color: #fff; text-align: center;}
+}
+
+@media only screen and (max-width: 767px) {
+    #myCanvas{font: 200px arial, sans-serif; color: #fff; text-align: center;}
+}
